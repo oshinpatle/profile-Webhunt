@@ -1,0 +1,55 @@
+body{
+    min-height: 100vh;
+    font-size: 1.5rem;
+    color: white;  
+    background-image: url(endless-constellation.svg);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    font-family: sans-serif;
+}
+
+.wh-profile-pic img{
+  display: inline-block;
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  margin-top: 10vh;
+  margin-bottom: 5vh;
+}
+.wh-profile-pic{
+    margin-left: 45vw;
+}
+.wh-entries{
+    margin-left: 22vw;
+}
+
+.wh-entries td{
+    width: 30vw;
+    height:7vh;
+    text-align: center;
+}
+.wh-entries td input{
+    width: 25vw;
+    height: 5vh;
+    border-radius: 10px;
+    padding-left: 20px;
+    font-size: 20px;
+    color: white;
+    background-color: #171717;
+}
+
+.wh-profile input[type="submit"]{
+    width: 10vw;
+    border-radius: 10px;
+    height: 5vh;
+    margin-left: 45vw;
+    margin-top: 5vh;
+    background-color: white;
+    font-size: 1.2rem;
+    color: black;
+}
